@@ -120,6 +120,7 @@ body {
 .mb-large {
     padding-bottom: 10px;
     font-size: x-large;
+    margin-bottom: 60px;
 }
 
 .deeswardrobe {
@@ -129,7 +130,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     padding: 40px;
-    text-align: inherit;
+    box-sizing: border-box;
 }
 
 .deeswardrobe h3 {
