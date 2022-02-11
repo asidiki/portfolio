@@ -8,7 +8,7 @@ body {
     font-family: rubik, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    background-color: #fff.;
+    background-color: #fff;
 }
 
 .wrap {
@@ -83,7 +83,6 @@ body {
 
 .menu ul li {
     display: flex;
-    flex-flow: ;
 }
 
 .menu_item {
@@ -126,29 +125,71 @@ body {
 .deeswardrobe {
     background-color: #f1f8fa;
     border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
     flex: 1;
     padding: 40px;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    transition: 1ms;
 }
 
-.deeswardrobe h3 {
+.deeswardrobe h3, .run-buddy h3 {
     text-align: center;
-    font-size: x-large;
+    font-size: 35px;
     padding-bottom: 20px;
 }
 
 .deeswbimg {
-    padding-top: 50px;
     margin-left: 0;
-    height: 300px;
-    width: 150px;
+    width: 40%;
+    text-align: right;
+    border: 2px solid lightblue;
+    transition: 1ms;
 }
 
-.deeswardrobe p {
-    margin-top: 15px;
-    font-size: 1.375rem;
+.deeswbimg:hover {
+    width: 43%;
 }
+
+.deeswardrobe p, .run-buddy p {
+    margin-top: 200px;
+    font-size: 2.375rem;
+    text-align: left;
+}
+
+.project {
+    display: flex;
+    flex-direction: row-reverse;
     
 }
+
+.deeswardrobe h3 a, .run-buddy h3 a {
+    color: #191a1d;
+    font-weight: 600;
+    letter-spacing: 0.625rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.deeswardrobe h3 a:hover, .run-buddy h3 a:hover {
+    color: darkblue;
+    font-size: 40px;
+}
+
+.run-buddy {
+    padding-top: 50px;
+    margin-top: 30px;
+    background-color: #f1f8fa;
+    border-radius: 5px;
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    transition: 1ms;
+    
+}
+
+    
