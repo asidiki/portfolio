@@ -219,4 +219,65 @@ footer h3 {
     font-size: x-large;
 }
 
+/* MEDIA QUERY */
+
+@media screen and (max-width: 980px) {
+   .header {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-bottom: 35px;
+   }
+
+   .menu {
+       justify-content: space-between;
+   }
+
+   .menu_item {
+       letter-spacing: 0.7rem;
+       padding-bottom: 14px;
+   }
+
+   .About-Me p {
+       font-size: 1.1rem;
+   }
+
+   .About-Me {
+       margin-bottom: 50px;
+   }
+
+   .deeswardrobe h3, .run-buddy h3 {
+       font-size: 20px;
+   }
+
+   .project {
+       flex-direction: column;
+   }
+
+   .project a {
+       flex-basis: 0;
+   }
+
+   .deeswardrobe p, .run-buddy p {
+       margin-top: 70px;
+       text-align: center;
+       font-size: 1.4rem;
+   }
+
+   .mb-large {
+       font-size: medium;
+       margin-bottom: 30px;
+   }
+
+   #contactmehead {
+       padding-top: 45px;
+   }
+
+   #Contact-Me ul li {
+       font-size: large;
+   }
+
+
+}
+
     
