@@ -1,41 +1,10 @@
-# Project Title
+# Ansab's Portfolio
 
-Simple overview of use/purpose.
+Welcome to Ansab's portfolio git repo.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This website will be used to showcase all my work that I will accomplish during my coding bootcamp and other personal stuff I've been working on.
 
-## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+### Screenshot of the webpage:
+    ![Webpade Screenshot](/assets/images/screenshot.jpg)
