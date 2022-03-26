@@ -138,7 +138,7 @@ body {
     transition: 1ms;
 }
 
-.deeswardrobe h3, .run-buddy h3 {
+.deeswardrobe h3, .run-buddy h3, .dinner-drinks h3 {
     text-align: center;
     font-size: 35px;
     padding-bottom: 20px;
@@ -158,7 +158,7 @@ body {
 }
 
 
-.deeswardrobe p, .run-buddy p {
+.deeswardrobe p, .run-buddy p, .dinner-drinks p {
     margin-top: 200px;
     font-size: 2.375rem;
     text-align: left;
@@ -171,7 +171,7 @@ body {
     padding-top: 10px;
 }
 
-.deeswardrobe h3 a, .run-buddy h3 a, #Contact-Me ul li a {
+.deeswardrobe h3 a, .run-buddy h3 a, #Contact-Me ul li a, .dinner-drinks h3 a {
     color: #191a1d;
     font-weight: 600;
     letter-spacing: 0.625rem;
@@ -179,12 +179,12 @@ body {
     text-decoration: none;
 }
 
-.deeswardrobe h3 a:hover, .run-buddy h3 a:hover, #Contact-Me ul li a:hover {
+.deeswardrobe h3 a:hover, .run-buddy h3 a:hover, #Contact-Me ul li a:hover, .dinner-drinks h3 a:hover {
     color: darkblue;
     font-size: 30px;
 }
 
-.run-buddy, #Contact-Me ul {
+.run-buddy, #Contact-Me ul, .dinner-drinks {
     padding-top: 50px;
     padding-bottom: 40px;
     margin-top: 30px;
@@ -258,7 +258,7 @@ footer h3 {
        flex-basis: 0;
    }
 
-   .deeswardrobe p, .run-buddy p {
+   .deeswardrobe p, .run-buddy p, .dinner-drinks p {
        margin-top: 70px;
        text-align: center;
        font-size: 1.4rem;
